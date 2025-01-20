@@ -1,0 +1,15 @@
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Dominio.dll
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Negocio.dll
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Dominio.pdb
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\bin\Debug\Negocio.pdb
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.FormDefault.resources
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.pdb
