@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\negocio\\listadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|c:\\users\\juani\\desktop\\acces\\proyectos-mios-csharp\\listadetareas\\listatareas\\negocio\\listadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|solutionrelative:negocio\\listadata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\dominio\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|solutionrelative:dominio\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\negocio\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|solutionrelative:negocio\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|c:\\users\\juani\\desktop\\acces\\proyectos-mios-csharp\\listadetareas\\listatareas\\presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C16B383-4BC0-459B-9B37-FBDBF6EE6554}|Negocio\\Negocio.csproj|solutionrelative:negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|solutionrelative:dominio\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4966B30-3220-43D2-94FD-85D22ED5E6F0}|Presentacion\\Presentacion.csproj|solutionrelative:presentacion\\formdefault.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\dominio\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0CD85CA-55D1-493B-8A79-A4E5B1E06137}|Dominio\\Dominio.csproj|solutionrelative:dominio\\tarea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +42,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormDefault.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Presentacion\\FormDefault.cs",
               "RelativeDocumentMoniker": "Presentacion\\FormDefault.cs",
@@ -54,26 +54,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormDefault.cs",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Presentacion\\FormDefault.cs",
               "RelativeDocumentMoniker": "Presentacion\\FormDefault.cs",
               "ToolTip": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Presentacion\\FormDefault.cs",
               "RelativeToolTip": "Presentacion\\FormDefault.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAApwFwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAEwEUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T13:22:48.122Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsuarioData.cs",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Negocio\\UsuarioData.cs",
               "RelativeDocumentMoniker": "Negocio\\UsuarioData.cs",
               "ToolTip": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Negocio\\UsuarioData.cs",
               "RelativeToolTip": "Negocio\\UsuarioData.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAqwDYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB8AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T12:45:48.294Z",
               "EditorCaption": ""
@@ -86,14 +86,14 @@
               "RelativeDocumentMoniker": "Negocio\\ListaData.cs",
               "ToolTip": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Negocio\\ListaData.cs",
               "RelativeToolTip": "Negocio\\ListaData.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAqwCkAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwA0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-12T12:45:31.99Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Negocio\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Negocio\\AccesoDatos.cs",
@@ -106,26 +106,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Dominio\\Usuario.cs",
               "RelativeDocumentMoniker": "Dominio\\Usuario.cs",
               "ToolTip": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Dominio\\Usuario.cs",
               "RelativeToolTip": "Dominio\\Usuario.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAcwBIAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T18:44:00.846Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Tarea.cs",
               "DocumentMoniker": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Dominio\\Tarea.cs",
               "RelativeDocumentMoniker": "Dominio\\Tarea.cs",
               "ToolTip": "C:\\Users\\juani\\Desktop\\acces\\Proyectos-Mios-Csharp\\ListaDeTareas\\ListaTareas\\Dominio\\Tarea.cs",
               "RelativeToolTip": "Dominio\\Tarea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAtwAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAD4vwoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T18:38:58.77Z",
               "EditorCaption": ""

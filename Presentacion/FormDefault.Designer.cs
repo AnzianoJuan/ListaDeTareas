@@ -30,23 +30,24 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDefault));
             this.panelTop = new System.Windows.Forms.Panel();
-            this.pictureBoxCerrar = new System.Windows.Forms.PictureBox();
-            this.pictureBoxMin = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBoxMin = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCerrar = new System.Windows.Forms.PictureBox();
             this.panelLeft = new System.Windows.Forms.Panel();
-            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
-            this.buttonAddUser = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonAddUser = new System.Windows.Forms.Button();
+            this.pictureBoxImg = new System.Windows.Forms.PictureBox();
             this.dataGridViewListaTareas = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelTop.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrar)).BeginInit();
             this.panelLeft.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListaTareas)).BeginInit();
@@ -57,6 +58,7 @@
             this.panelTop.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.panelTop.BackColor = System.Drawing.Color.Green;
             this.panelTop.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelTop.BackgroundImage")));
+            this.panelTop.Controls.Add(this.label1);
             this.panelTop.Controls.Add(this.panel1);
             this.panelTop.Controls.Add(this.pictureBoxMin);
             this.panelTop.Controls.Add(this.pictureBoxCerrar);
@@ -67,18 +69,12 @@
             this.panelTop.TabIndex = 0;
             this.panelTop.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTop_MouseDown);
             // 
-            // pictureBoxCerrar
+            // panel1
             // 
-            this.pictureBoxCerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrar.BackgroundImage")));
-            this.pictureBoxCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrar.Image")));
-            this.pictureBoxCerrar.Location = new System.Drawing.Point(1170, 3);
-            this.pictureBoxCerrar.Name = "pictureBoxCerrar";
-            this.pictureBoxCerrar.Size = new System.Drawing.Size(52, 48);
-            this.pictureBoxCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxCerrar.TabIndex = 1;
-            this.pictureBoxCerrar.TabStop = false;
-            this.pictureBoxCerrar.Click += new System.EventHandler(this.pictureBoxCerrar_Click);
+            this.panel1.Location = new System.Drawing.Point(0, 54);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(231, 747);
+            this.panel1.TabIndex = 1;
             // 
             // pictureBoxMin
             // 
@@ -93,12 +89,18 @@
             this.pictureBoxMin.TabStop = false;
             this.pictureBoxMin.Click += new System.EventHandler(this.pictureBoxMin_Click);
             // 
-            // panel1
+            // pictureBoxCerrar
             // 
-            this.panel1.Location = new System.Drawing.Point(0, 54);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(231, 747);
-            this.panel1.TabIndex = 1;
+            this.pictureBoxCerrar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrar.BackgroundImage")));
+            this.pictureBoxCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrar.Image")));
+            this.pictureBoxCerrar.Location = new System.Drawing.Point(1170, 3);
+            this.pictureBoxCerrar.Name = "pictureBoxCerrar";
+            this.pictureBoxCerrar.Size = new System.Drawing.Size(52, 48);
+            this.pictureBoxCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCerrar.TabIndex = 1;
+            this.pictureBoxCerrar.TabStop = false;
+            this.pictureBoxCerrar.Click += new System.EventHandler(this.pictureBoxCerrar_Click);
             // 
             // panelLeft
             // 
@@ -117,51 +119,37 @@
             this.panelLeft.Size = new System.Drawing.Size(228, 758);
             this.panelLeft.TabIndex = 1;
             // 
-            // pictureBoxImg
+            // panel5
             // 
-            this.pictureBoxImg.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxImg.Image")));
-            this.pictureBoxImg.Location = new System.Drawing.Point(3, 0);
-            this.pictureBoxImg.Name = "pictureBoxImg";
-            this.pictureBoxImg.Size = new System.Drawing.Size(222, 175);
-            this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxImg.TabIndex = 0;
-            this.pictureBoxImg.TabStop = false;
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel5.Location = new System.Drawing.Point(0, 390);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(21, 43);
+            this.panel5.TabIndex = 8;
             // 
-            // buttonAddUser
+            // panel4
             // 
-            this.buttonAddUser.BackColor = System.Drawing.Color.Azure;
-            this.buttonAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonAddUser.Location = new System.Drawing.Point(12, 207);
-            this.buttonAddUser.Name = "buttonAddUser";
-            this.buttonAddUser.Size = new System.Drawing.Size(213, 43);
-            this.buttonAddUser.TabIndex = 1;
-            this.buttonAddUser.Text = "Agregar usuario";
-            this.buttonAddUser.UseVisualStyleBackColor = false;
-            this.buttonAddUser.Click += new System.EventHandler(this.buttonAddUser_Click);
+            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel4.Location = new System.Drawing.Point(0, 329);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(21, 43);
+            this.panel4.TabIndex = 7;
             // 
-            // button1
+            // panel3
             // 
-            this.button1.BackColor = System.Drawing.Color.Azure;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(12, 269);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(213, 43);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Agregar tarea";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel3.Location = new System.Drawing.Point(0, 269);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(21, 43);
+            this.panel3.TabIndex = 6;
             // 
-            // button2
+            // panel2
             // 
-            this.button2.BackColor = System.Drawing.Color.Azure;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(12, 329);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 43);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Modificar tarea";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel2.Location = new System.Drawing.Point(-5, 207);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(26, 43);
+            this.panel2.TabIndex = 5;
             // 
             // button3
             // 
@@ -175,37 +163,51 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // panel2
+            // button2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel2.Location = new System.Drawing.Point(-5, 207);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(26, 43);
-            this.panel2.TabIndex = 5;
+            this.button2.BackColor = System.Drawing.Color.Azure;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(12, 329);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(213, 43);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Modificar tarea";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // panel3
+            // button1
             // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel3.Location = new System.Drawing.Point(0, 269);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(21, 43);
-            this.panel3.TabIndex = 6;
+            this.button1.BackColor = System.Drawing.Color.Azure;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(12, 269);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(213, 43);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Agregar tarea";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // panel4
+            // buttonAddUser
             // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel4.Location = new System.Drawing.Point(0, 329);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(21, 43);
-            this.panel4.TabIndex = 7;
+            this.buttonAddUser.BackColor = System.Drawing.Color.Azure;
+            this.buttonAddUser.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonAddUser.Location = new System.Drawing.Point(12, 207);
+            this.buttonAddUser.Name = "buttonAddUser";
+            this.buttonAddUser.Size = new System.Drawing.Size(213, 43);
+            this.buttonAddUser.TabIndex = 1;
+            this.buttonAddUser.Text = "Agregar usuario";
+            this.buttonAddUser.UseVisualStyleBackColor = false;
+            this.buttonAddUser.Click += new System.EventHandler(this.buttonAddUser_Click);
             // 
-            // panel5
+            // pictureBoxImg
             // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.panel5.Location = new System.Drawing.Point(0, 390);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(21, 43);
-            this.panel5.TabIndex = 8;
+            this.pictureBoxImg.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxImg.Image")));
+            this.pictureBoxImg.Location = new System.Drawing.Point(3, 0);
+            this.pictureBoxImg.Name = "pictureBoxImg";
+            this.pictureBoxImg.Size = new System.Drawing.Size(222, 175);
+            this.pictureBoxImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxImg.TabIndex = 0;
+            this.pictureBoxImg.TabStop = false;
             // 
             // dataGridViewListaTareas
             // 
@@ -216,6 +218,17 @@
             this.dataGridViewListaTareas.RowTemplate.Height = 24;
             this.dataGridViewListaTareas.Size = new System.Drawing.Size(957, 537);
             this.dataGridViewListaTareas.TabIndex = 2;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Ivory;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(15, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(308, 36);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Gestionador de tareas";
             // 
             // FormDefault
             // 
@@ -236,8 +249,9 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormDefault_Load);
             this.panelTop.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrar)).EndInit();
+            this.panelTop.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrar)).EndInit();
             this.panelLeft.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImg)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewListaTareas)).EndInit();
@@ -262,6 +276,7 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dataGridViewListaTareas;
+        private System.Windows.Forms.Label label1;
     }
 }
 

@@ -18,7 +18,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("select UsuarioID,NombreUsuario,Email from Users");
+                datos.setearConsulta("select UsuarioID,NombreUsuario,Email,Contraseña from Users");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -29,6 +29,7 @@ namespace Negocio
                     aux.UsuarioID = (int)datos.Lector["UsuarioID"];
                     aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
                     aux.Email = (string)datos.Lector["Email"];
+                    aux.Contra = (string)datos.Lector["Contraseña"];
 
 
                     lista.Add(aux);

@@ -11,7 +11,7 @@ namespace Negocio
     public class ListaData
     {
 
-        public List<Tarea> listar()
+        public List<Tarea> listarTareas()
         {
             List<Tarea> listaTareas = new List<Tarea>();
 
@@ -19,7 +19,7 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("SELECT T.TareaID as Tarea,T.Titulo,T.Descripcion,T.Prioridad,T.Estado ,T.FechaCreacion, T.FechaCompletada, U.NombreUsuario ,U.UsuarioID FROM dbo.Tareas T JOIN dbo.Users U ON U.UsuarioID = T.UsuarioID \r\n");
+                datos.setearConsulta("SELECT T.TareaID as Tarea,T.Titulo,T.Descripcion,T.Prioridad,T.Estado ,T.FechaCreacion, T.FechaCompletada, U.NombreUsuario as NombreDeUsuario ,U.UsuarioID  FROM dbo.Tareas T JOIN dbo.Users U ON U.UsuarioID = T.UsuarioID ");
 
                 datos.ejecutarLectura();
 
@@ -36,10 +36,10 @@ namespace Negocio
                     aux.FechaCompletada = (DateTime)datos.Lector["FechaCompletada"];
 
 
-                    aux.Usuario = new Usuario
+                    aux.Usuario = new Usuario//------
                     {
                         UsuarioID = (int)datos.Lector["UsuarioID"],
-                        NombreUsuario = (string)datos.Lector["NombreUsuario"]
+                        NombreUsuario = (string)datos.Lector["NombreDeUsuario"]
                     };
 
                     listaTareas.Add(aux);

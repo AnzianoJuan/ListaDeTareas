@@ -71,9 +71,9 @@ namespace Presentacion
 
             try
             {
-                listaDeTareas = dataList.listar();
+                listaDeTareas = dataList.listarTareas();
                 dataGridViewListaTareas.DataSource = listaDeTareas;
-                //ocultarColumnas();
+                ocultarColumnas();
             }
             catch (Exception ex)
             {
@@ -83,8 +83,9 @@ namespace Presentacion
 
         private void ocultarColumnas()
         {
-            //dataGridViewListaTareas.Columns["TareaID"].Visible = false;
-            //dataGridViewListaTareas.Columns["UsuarioID"].Visible = false;
+            dataGridViewListaTareas.Columns["TareaID"].Visible = false;
+            dataGridViewListaTareas.Columns["FechaCreacion"].Visible = false;
+
         }
 
         private void FormDefault_Load(object sender, EventArgs e)
