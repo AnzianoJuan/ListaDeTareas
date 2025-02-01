@@ -73,6 +73,8 @@ namespace Presentacion
             {
                 listaDeTareas = dataList.listarTareas();
                 dataGridViewListaTareas.DataSource = listaDeTareas;
+                dataGridViewListaTareas.Columns["Usuario"].Visible = false; // Oculta la columna del objeto Usuario
+                dataGridViewListaTareas.Columns["NombreUsuario"].HeaderText = "Usuario"; // Renombra la columna
                 ocultarColumnas();
             }
             catch (Exception ex)

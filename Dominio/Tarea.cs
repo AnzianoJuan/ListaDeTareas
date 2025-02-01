@@ -23,5 +23,8 @@ namespace Dominio
         public DateTime FechaCompletada { get; set; }
 
         public Usuario Usuario { get; set; }
+
+        // Propiedad calculada para mostrar el nombre de usuario directamente en el DataGridView
+        public string NombreUsuario => Usuario != null ? Usuario.NombreUsuario : "Sin usuario";
     }
 }
