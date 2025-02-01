@@ -60,34 +60,34 @@ namespace Negocio
             }
         }
 
-        //public void AgregarContacto(Contacto nuevo)
-        //{
+        public void AgregarUsuario(Usuario nuevo)
+        {
 
-        //    AccesoDatos datos = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
 
-        //    try
-        //    {
+            try
+            {
 
-        //        datos.setearConsulta("insert into Contactos(Nombre,Telefono,Email,Direccion) values(@Nombre,@Telefono,@Email,@Direccion)");
-        //        datos.setearParametro("@Nombre", nuevo.Nombre);
-        //        datos.setearParametro("@Telefono", nuevo.Telefono);
-        //        datos.setearParametro("@Email", nuevo.Email);
-        //        datos.setearParametro("@Direccion", nuevo.Direccion);
+                datos.setearConsulta("insert into Contactos(Nombre,Telefono,Email,Direccion) values(@Nombre,@Telefono,@Email,@Direccion)");
+                datos.setearParametro("@Nombre", nuevo.Nombre);
+                datos.setearParametro("@Telefono", nuevo.Telefono);
+                datos.setearParametro("@Email", nuevo.Email);
+                datos.setearParametro("@Direccion", nuevo.Direccion);
 
-        //        datos.ejecutarAccion();
+                datos.ejecutarAccion();
 
-        //    }
-        //    catch (Exception ex)
-        //    {
+            }
+            catch (Exception ex)
+            {
 
-        //        throw ex;
-        //    }
-        //    finally
-        //    {
+                throw ex;
+            }
+            finally
+            {
 
-        //        datos.cerrarConexion();
-        //    }
-        //}
+                datos.cerrarConexion();
+            }
+        }
 
         //public void modificar(Contacto cont)
         //{
