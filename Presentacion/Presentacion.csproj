@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAgregarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarUsuario.Designer.cs">
+      <DependentUpon>FormAgregarUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormDefault.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +60,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgregarUsuario.resx">
+      <DependentUpon>FormAgregarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormDefault.resx">
       <DependentUpon>FormDefault.cs</DependentUpon>
     </EmbeddedResource>

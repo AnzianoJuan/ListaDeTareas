@@ -52,6 +52,18 @@ namespace Presentacion
 
         private void buttonAddUser_Click(object sender, EventArgs e)
         {
+            foreach (var item in Application.OpenForms)
+            {
+
+                if (item.GetType() == typeof(FormAgregarUsuario))
+                {
+                    MessageBox.Show("ya esta una ventana abierta");
+                    return;
+                }
+            }
+
+            FormAgregarUsuario windowViewProfile = new FormAgregarUsuario();
+            windowViewProfile.Show();
 
         }
 
@@ -73,6 +85,15 @@ namespace Presentacion
             {
                 listaDeTareas = dataList.listarTareas();
                 dataGridViewListaTareas.DataSource = listaDeTareas;
+                dataGridViewListaTareas.Columns["Titulo"].DisplayIndex = 0;
+                dataGridViewListaTareas.Columns["Descripcion"].DisplayIndex = 1;
+                dataGridViewListaTareas.Columns["Prioridad"].DisplayIndex = 2;
+                dataGridViewListaTareas.Columns["Estado"].DisplayIndex = 3;
+                dataGridViewListaTareas.Columns["NombreUsuario"].DisplayIndex = 4;
+                dataGridViewListaTareas.Columns["FechaCreacion"].DisplayIndex = 5;
+                dataGridViewListaTareas.Columns["FechaCompletada"].DisplayIndex = 6;
+                dataGridViewListaTareas.Columns["TareaID"].Visible = false; // Ocultar ID si no es necesario
+
                 dataGridViewListaTareas.Columns["Usuario"].Visible = false; // Oculta la columna del objeto Usuario
                 dataGridViewListaTareas.Columns["NombreUsuario"].HeaderText = "Usuario"; // Renombra la columna
                 ocultarColumnas();

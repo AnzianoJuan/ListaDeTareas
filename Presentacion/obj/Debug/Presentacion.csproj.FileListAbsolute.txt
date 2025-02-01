@@ -13,3 +13,4 @@ C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Pre
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presenta.BC77CD05.Up2Date
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.FormAgregarUsuario.resources
