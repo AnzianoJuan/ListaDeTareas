@@ -14,3 +14,4 @@ C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Pre
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.exe
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.pdb
 C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.FormAgregarUsuario.resources
+C:\Users\juani\Desktop\acces\Proyectos-Mios-Csharp\ListaDeTareas\ListaTareas\Presentacion\obj\Debug\Presentacion.FormAgregarTarea.resources

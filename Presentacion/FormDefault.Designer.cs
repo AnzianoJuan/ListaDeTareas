@@ -40,11 +40,11 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.buttonAddUser = new System.Windows.Forms.Button();
             this.pictureBoxImg = new System.Windows.Forms.PictureBox();
             this.dataGridViewListaTareas = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrar)).BeginInit();
@@ -174,6 +174,30 @@
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Azure;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Location = new System.Drawing.Point(12, 329);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(213, 43);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Modificar tarea";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Azure;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(12, 269);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(213, 43);
+            this.button1.TabIndex = 2;
+            this.button1.Text = "Agregar tarea";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // buttonAddUser
             // 
             this.buttonAddUser.BackColor = System.Drawing.Color.Azure;
@@ -201,34 +225,11 @@
             this.dataGridViewListaTareas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridViewListaTareas.Location = new System.Drawing.Point(256, 137);
             this.dataGridViewListaTareas.Name = "dataGridViewListaTareas";
+            this.dataGridViewListaTareas.ReadOnly = true;
             this.dataGridViewListaTareas.RowHeadersWidth = 51;
             this.dataGridViewListaTareas.RowTemplate.Height = 24;
             this.dataGridViewListaTareas.Size = new System.Drawing.Size(957, 537);
             this.dataGridViewListaTareas.TabIndex = 2;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Azure;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Location = new System.Drawing.Point(12, 329);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(213, 43);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Modificar tarea";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.Azure;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.Location = new System.Drawing.Point(12, 269);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(213, 43);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Agregar tarea";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormDefault
             // 

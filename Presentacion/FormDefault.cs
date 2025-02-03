@@ -50,15 +50,15 @@ namespace Presentacion
             foreach (var item in Application.OpenForms)
             {
 
-                if (item.GetType() == typeof(FormAgregarUsuario))
+                if (item.GetType() == typeof(FormAgregarTarea))
                 {
                     MessageBox.Show("ya esta una ventana abierta");
                     return;
                 }
             }
 
-            FormAgregarUsuario windowViewProfile = new FormAgregarUsuario();
-            windowViewProfile.Show();
+            FormAgregarTarea windowAgregarTarea = new FormAgregarTarea();
+            windowAgregarTarea.Show();
         }
 
         private void buttonAddUser_Click(object sender, EventArgs e)

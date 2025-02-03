@@ -10,45 +10,39 @@ namespace Negocio
     public  class UsuarioData
     {
 
-        public List<Usuario> listar()
+        public List<Usuario> listarUsuarios()
         {
             List<Usuario> lista = new List<Usuario>();
-
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.setearConsulta("select UsuarioID,NombreUsuario,Email,Contraseña from Users");
+                datos.setearConsulta("SELECT UsuarioID, NombreUsuario, Contraseña, Email FROM Users");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
                 {
-
-                    Usuario aux = new Usuario();
-
-                    aux.UsuarioID = (int)datos.Lector["UsuarioID"];
-                    aux.NombreUsuario = (string)datos.Lector["NombreUsuario"];
-                    aux.Email = (string)datos.Lector["Email"];
-                    aux.Contra = (string)datos.Lector["Contraseña"];
-
+                    Usuario aux = new Usuario
+                    {
+                        UsuarioID = (int)datos.Lector["UsuarioID"],
+                        NombreUsuario = (string)datos.Lector["NombreUsuario"],
+                        Contra = (string)datos.Lector["Contraseña"],  // 🔹 Corrección aquí
+                        Email = (string)datos.Lector["Email"]         // 🔹 Corrección aquí
+                    };
 
                     lista.Add(aux);
-
                 }
-
-                return lista;
             }
             catch (Exception ex)
             {
-
                 throw ex;
             }
             finally
             {
-
                 datos.cerrarConexion();
-
             }
+
+            return lista;
         }
 
     }

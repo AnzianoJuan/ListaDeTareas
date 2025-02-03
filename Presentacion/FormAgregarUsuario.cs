@@ -114,5 +114,10 @@ namespace Presentacion
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void pictureBoxCerrarForm_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+        }
     }
 }

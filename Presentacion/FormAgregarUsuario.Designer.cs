@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarUsuario));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxMinFormUser = new System.Windows.Forms.PictureBox();
             this.pictureBoxCerrarFormUser = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -41,18 +40,17 @@
             this.label4 = new System.Windows.Forms.Label();
             this.textBoxContraseña = new System.Windows.Forms.TextBox();
             this.pictureBoxAgregarUser = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCerrarForm = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarFormUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgregarUser)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarForm)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBoxMinFormUser);
             this.panel1.Controls.Add(this.pictureBoxCerrarFormUser);
             this.panel1.Controls.Add(this.panel2);
@@ -62,17 +60,6 @@
             this.panel1.Size = new System.Drawing.Size(590, 76);
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(234, 36);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Agregar Usuario";
             // 
             // pictureBoxMinFormUser
             // 
@@ -92,7 +79,7 @@
             this.pictureBoxCerrarFormUser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrarFormUser.BackgroundImage")));
             this.pictureBoxCerrarFormUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxCerrarFormUser.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrarFormUser.Image")));
-            this.pictureBoxCerrarFormUser.Location = new System.Drawing.Point(433, 12);
+            this.pictureBoxCerrarFormUser.Location = new System.Drawing.Point(436, 12);
             this.pictureBoxCerrarFormUser.Name = "pictureBoxCerrarFormUser";
             this.pictureBoxCerrarFormUser.Size = new System.Drawing.Size(52, 48);
             this.pictureBoxCerrarFormUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -179,25 +166,26 @@
             this.pictureBoxAgregarUser.TabStop = false;
             this.pictureBoxAgregarUser.Click += new System.EventHandler(this.pictureBoxAgregarUser_Click);
             // 
-            // pictureBox1
+            // pictureBoxCerrarForm
             // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(101, 427);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(93, 85);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 8;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.pictureBoxCerrarForm.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrarForm.BackgroundImage")));
+            this.pictureBoxCerrarForm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxCerrarForm.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrarForm.Image")));
+            this.pictureBoxCerrarForm.Location = new System.Drawing.Point(115, 427);
+            this.pictureBoxCerrarForm.Name = "pictureBoxCerrarForm";
+            this.pictureBoxCerrarForm.Size = new System.Drawing.Size(79, 85);
+            this.pictureBoxCerrarForm.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxCerrarForm.TabIndex = 4;
+            this.pictureBoxCerrarForm.TabStop = false;
+            this.pictureBoxCerrarForm.Click += new System.EventHandler(this.pictureBoxCerrarForm_Click);
             // 
             // FormAgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.GrayText;
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(499, 639);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBoxCerrarForm);
             this.Controls.Add(this.pictureBoxAgregarUser);
             this.Controls.Add(this.textBoxContraseña);
             this.Controls.Add(this.label4);
@@ -214,11 +202,10 @@
             this.Text = "FormAgregarUsuario";
             this.Load += new System.EventHandler(this.FormAgregarUsuario_Load);
             this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarFormUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAgregarUser)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarForm)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,7 +217,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBoxCerrarFormUser;
         private System.Windows.Forms.PictureBox pictureBoxMinFormUser;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBoxNombre;
         private System.Windows.Forms.Label label3;
@@ -238,6 +224,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox textBoxContraseña;
         private System.Windows.Forms.PictureBox pictureBoxAgregarUser;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxCerrarForm;
     }
 }
