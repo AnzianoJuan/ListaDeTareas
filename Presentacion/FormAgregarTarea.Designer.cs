@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormAgregarTarea));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBoxMinFormTarea = new System.Windows.Forms.PictureBox();
             this.pictureBoxCerrarTarea = new System.Windows.Forms.PictureBox();
+            this.pictureBoxMinFormTarea = new System.Windows.Forms.PictureBox();
             this.dataGridViewMostrarUsuarios = new System.Windows.Forms.DataGridView();
             this.textBoxBuscarUsuario = new System.Windows.Forms.TextBox();
             this.pictureBoxBuscar = new System.Windows.Forms.PictureBox();
@@ -45,8 +45,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormTarea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarTarea)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormTarea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMostrarUsuarios)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBuscar)).BeginInit();
             this.SuspendLayout();
@@ -64,19 +64,6 @@
             this.panel1.TabIndex = 0;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
-            // pictureBoxMinFormTarea
-            // 
-            this.pictureBoxMinFormTarea.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxMinFormTarea.BackgroundImage")));
-            this.pictureBoxMinFormTarea.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBoxMinFormTarea.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMinFormTarea.Image")));
-            this.pictureBoxMinFormTarea.Location = new System.Drawing.Point(791, 12);
-            this.pictureBoxMinFormTarea.Name = "pictureBoxMinFormTarea";
-            this.pictureBoxMinFormTarea.Size = new System.Drawing.Size(52, 48);
-            this.pictureBoxMinFormTarea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBoxMinFormTarea.TabIndex = 4;
-            this.pictureBoxMinFormTarea.TabStop = false;
-            this.pictureBoxMinFormTarea.Click += new System.EventHandler(this.pictureBoxMinFormTarea_Click);
-            // 
             // pictureBoxCerrarTarea
             // 
             this.pictureBoxCerrarTarea.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxCerrarTarea.BackgroundImage")));
@@ -89,6 +76,19 @@
             this.pictureBoxCerrarTarea.TabIndex = 6;
             this.pictureBoxCerrarTarea.TabStop = false;
             this.pictureBoxCerrarTarea.Click += new System.EventHandler(this.pictureBoxCerrarTarea_Click);
+            // 
+            // pictureBoxMinFormTarea
+            // 
+            this.pictureBoxMinFormTarea.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBoxMinFormTarea.BackgroundImage")));
+            this.pictureBoxMinFormTarea.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBoxMinFormTarea.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxMinFormTarea.Image")));
+            this.pictureBoxMinFormTarea.Location = new System.Drawing.Point(791, 12);
+            this.pictureBoxMinFormTarea.Name = "pictureBoxMinFormTarea";
+            this.pictureBoxMinFormTarea.Size = new System.Drawing.Size(52, 48);
+            this.pictureBoxMinFormTarea.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxMinFormTarea.TabIndex = 4;
+            this.pictureBoxMinFormTarea.TabStop = false;
+            this.pictureBoxMinFormTarea.Click += new System.EventHandler(this.pictureBoxMinFormTarea_Click);
             // 
             // dataGridViewMostrarUsuarios
             // 
@@ -103,15 +103,16 @@
             // textBoxBuscarUsuario
             // 
             this.textBoxBuscarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBuscarUsuario.Location = new System.Drawing.Point(530, 84);
+            this.textBoxBuscarUsuario.Location = new System.Drawing.Point(425, 84);
             this.textBoxBuscarUsuario.Name = "textBoxBuscarUsuario";
-            this.textBoxBuscarUsuario.Size = new System.Drawing.Size(246, 28);
+            this.textBoxBuscarUsuario.Size = new System.Drawing.Size(363, 28);
             this.textBoxBuscarUsuario.TabIndex = 2;
+            this.textBoxBuscarUsuario.TextChanged += new System.EventHandler(this.textBoxBuscarUsuario_TextChanged);
             // 
             // pictureBoxBuscar
             // 
             this.pictureBoxBuscar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxBuscar.Image")));
-            this.pictureBoxBuscar.Location = new System.Drawing.Point(492, 84);
+            this.pictureBoxBuscar.Location = new System.Drawing.Point(387, 84);
             this.pictureBoxBuscar.Name = "pictureBoxBuscar";
             this.pictureBoxBuscar.Size = new System.Drawing.Size(32, 28);
             this.pictureBoxBuscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -232,8 +233,8 @@
             this.Text = "FormAgregarTarea";
             this.Load += new System.EventHandler(this.FormAgregarTarea_Load);
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormTarea)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarTarea)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormTarea)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewMostrarUsuarios)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxBuscar)).EndInit();
             this.ResumeLayout(false);

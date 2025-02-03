@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics.Contracts;
 using System.Drawing;
 using System.Linq;
 using System.Runtime.InteropServices;
@@ -94,6 +95,29 @@ namespace Presentacion
         private void FormAgregarTarea_Load(object sender, EventArgs e)
         {
             cargar();
+            ocultarColumnas();
+        }
+
+        private void textBoxBuscarUsuario_TextChanged(object sender, EventArgs e)
+        {
+            List<Usuario> listaFiltrada;
+
+            string filtro = textBoxBuscarUsuario.Text;
+
+
+            if (filtro.Length >= 2)
+            {
+                listaFiltrada = listaDeUsuario.FindAll(x => x.NombreUsuario.ToUpper().Contains(filtro.ToUpper()) || x.Email.ToUpper().Contains(filtro.ToUpper()));
+            }
+            else
+            {
+
+                listaFiltrada = listaDeUsuario;
+
+            }
+
+            dataGridViewMostrarUsuarios.DataSource = null;
+            dataGridViewMostrarUsuarios.DataSource = listaFiltrada;
             ocultarColumnas();
         }
     }
