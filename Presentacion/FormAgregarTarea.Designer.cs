@@ -44,6 +44,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCerrarTarea)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinFormTarea)).BeginInit();
@@ -93,17 +95,18 @@
             // dataGridViewMostrarUsuarios
             // 
             this.dataGridViewMostrarUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewMostrarUsuarios.Location = new System.Drawing.Point(387, 131);
+            this.dataGridViewMostrarUsuarios.Location = new System.Drawing.Point(387, 170);
             this.dataGridViewMostrarUsuarios.Name = "dataGridViewMostrarUsuarios";
+            this.dataGridViewMostrarUsuarios.ReadOnly = true;
             this.dataGridViewMostrarUsuarios.RowHeadersWidth = 51;
             this.dataGridViewMostrarUsuarios.RowTemplate.Height = 24;
-            this.dataGridViewMostrarUsuarios.Size = new System.Drawing.Size(522, 532);
+            this.dataGridViewMostrarUsuarios.Size = new System.Drawing.Size(522, 493);
             this.dataGridViewMostrarUsuarios.TabIndex = 1;
             // 
             // textBoxBuscarUsuario
             // 
             this.textBoxBuscarUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxBuscarUsuario.Location = new System.Drawing.Point(425, 84);
+            this.textBoxBuscarUsuario.Location = new System.Drawing.Point(436, 116);
             this.textBoxBuscarUsuario.Name = "textBoxBuscarUsuario";
             this.textBoxBuscarUsuario.Size = new System.Drawing.Size(363, 28);
             this.textBoxBuscarUsuario.TabIndex = 2;
@@ -112,7 +115,7 @@
             // pictureBoxBuscar
             // 
             this.pictureBoxBuscar.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxBuscar.Image")));
-            this.pictureBoxBuscar.Location = new System.Drawing.Point(387, 84);
+            this.pictureBoxBuscar.Location = new System.Drawing.Point(387, 116);
             this.pictureBoxBuscar.Name = "pictureBoxBuscar";
             this.pictureBoxBuscar.Size = new System.Drawing.Size(32, 28);
             this.pictureBoxBuscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -206,12 +209,36 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Usuario";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(382, 78);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(140, 25);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "buscar usuario";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(106, 117);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(110, 25);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Crear tarea";
+            // 
             // FormAgregarTarea
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
             this.ClientSize = new System.Drawing.Size(921, 669);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -259,5 +286,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
