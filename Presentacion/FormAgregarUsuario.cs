@@ -26,6 +26,13 @@ namespace Presentacion
             InitializeComponent();
         }
 
+        public FormAgregarUsuario(Usuario usuario)
+        {
+            InitializeComponent();
+            this.usuarioN = usuario;
+
+        }
+
         private void pictureBoxCerrarFormUser_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -57,7 +64,7 @@ namespace Presentacion
 
         private void pictureBoxAgregarUser_Click(object sender, EventArgs e)
         {
-            UsuarioData data = new UsuarioData();
+            ListaData data = new ListaData();
      
 
             try
@@ -84,10 +91,9 @@ namespace Presentacion
                     return;
                 }
 
-                //contactoN.Nombre = textBoxNombre.Text;
-                //contactoN.Telefono = textBoxTelefono.Text;
-                //contactoN.Direccion = textBoxDireccion.Text;
-                //contactoN.Email = textBoxEmail.Text;
+                usuarioN.NombreUsuario = textBoxNombre.Text;
+                usuarioN.Contra = textBoxContraseña.Text;
+                usuarioN.Email = textBoxEmail.Text;
 
                 //if (contactoN.Id != 0)
                 //{
@@ -97,7 +103,7 @@ namespace Presentacion
 
                 if (usuarioN.UsuarioID == 0)
                 {
-                    data.AgregarContacto(contactoN);
+                    data.AgregarUsuario(usuarioN);
                     MessageBox.Show("creado exitosamente");
                 }
 

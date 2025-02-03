@@ -122,9 +122,9 @@
             // textBoxNombre
             // 
             this.textBoxNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxNombre.Location = new System.Drawing.Point(221, 144);
+            this.textBoxNombre.Location = new System.Drawing.Point(218, 144);
             this.textBoxNombre.Name = "textBoxNombre";
-            this.textBoxNombre.Size = new System.Drawing.Size(182, 38);
+            this.textBoxNombre.Size = new System.Drawing.Size(240, 38);
             this.textBoxNombre.TabIndex = 2;
             // 
             // label3
@@ -142,9 +142,9 @@
             // textBoxEmail
             // 
             this.textBoxEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxEmail.Location = new System.Drawing.Point(221, 240);
+            this.textBoxEmail.Location = new System.Drawing.Point(218, 240);
             this.textBoxEmail.Name = "textBoxEmail";
-            this.textBoxEmail.Size = new System.Drawing.Size(182, 38);
+            this.textBoxEmail.Size = new System.Drawing.Size(240, 38);
             this.textBoxEmail.TabIndex = 4;
             // 
             // label4
@@ -162,13 +162,14 @@
             // textBoxContraseña
             // 
             this.textBoxContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxContraseña.Location = new System.Drawing.Point(221, 328);
+            this.textBoxContraseña.Location = new System.Drawing.Point(218, 328);
             this.textBoxContraseña.Name = "textBoxContraseña";
-            this.textBoxContraseña.Size = new System.Drawing.Size(182, 38);
+            this.textBoxContraseña.Size = new System.Drawing.Size(240, 38);
             this.textBoxContraseña.TabIndex = 6;
             // 
             // pictureBoxAgregarUser
             // 
+            this.pictureBoxAgregarUser.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBoxAgregarUser.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxAgregarUser.Image")));
             this.pictureBoxAgregarUser.Location = new System.Drawing.Point(277, 427);
             this.pictureBoxAgregarUser.Name = "pictureBoxAgregarUser";
@@ -180,6 +181,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(101, 427);
             this.pictureBox1.Name = "pictureBox1";

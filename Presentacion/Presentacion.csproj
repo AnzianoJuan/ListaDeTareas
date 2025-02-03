@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormAgregarTarea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarTarea.Designer.cs">
+      <DependentUpon>FormAgregarTarea.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormAgregarUsuario.cs">
       <SubType>Form</SubType>
     </Compile>

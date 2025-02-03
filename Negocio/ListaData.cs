@@ -68,11 +68,10 @@ namespace Negocio
             try
             {
 
-                datos.setearConsulta("insert into Contactos(Nombre,Telefono,Email,Direccion) values(@Nombre,@Telefono,@Email,@Direccion)");
-                datos.setearParametro("@Nombre", nuevo.Nombre);
-                datos.setearParametro("@Telefono", nuevo.Telefono);
+                datos.setearConsulta("insert into Users(NombreUsuario,Contraseña,Email) values(@NombreUsuario,@Contraseña,@Email)");
+                datos.setearParametro("@NombreUsuario", nuevo.NombreUsuario);
+                datos.setearParametro("@Contraseña", nuevo.Contra);
                 datos.setearParametro("@Email", nuevo.Email);
-                datos.setearParametro("@Direccion", nuevo.Direccion);
 
                 datos.ejecutarAccion();
 

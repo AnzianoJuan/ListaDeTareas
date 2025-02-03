@@ -47,7 +47,18 @@ namespace Presentacion
 
         private void button1_Click(object sender, EventArgs e)
         {
+            foreach (var item in Application.OpenForms)
+            {
 
+                if (item.GetType() == typeof(FormAgregarUsuario))
+                {
+                    MessageBox.Show("ya esta una ventana abierta");
+                    return;
+                }
+            }
+
+            FormAgregarUsuario windowViewProfile = new FormAgregarUsuario();
+            windowViewProfile.Show();
         }
 
         private void buttonAddUser_Click(object sender, EventArgs e)
